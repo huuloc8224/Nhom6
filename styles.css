@@ -1,0 +1,24 @@
+#actionButton {
+    background-color: #007bff; 
+    border: none; 
+    border-radius: 5px; 
+    color: white;
+    font-size: 16px; 
+    padding: 12px 20px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+}
+
+#actionButton:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+}
+
+#actionButton:focus {
+    outline: none; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+#actionButton:active {
+    background-color: blue; 
+}
